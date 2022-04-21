@@ -187,6 +187,9 @@ li {
 .bg-dark {
     background-color: #212529;
 }
+.bg-white {
+    background-color:white;
+}
 .mb-4{
     padding-bottom: 4rem;
     color:white;
@@ -347,11 +350,6 @@ ad-size {
     padding-top: 5rem;
 
 }
-
-.p3-main-color {
-    background-color: #a1a1a1;
-}
-
 
 .form {
     padding: 8rem 0;

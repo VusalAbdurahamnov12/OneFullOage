@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {  
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #212529
+}
+
+
+.nav-links a .navbar {
+    color: #212529
+}
+
+.nav-links a:hover  {
+    color: #f4623a;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.menu {
+    
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu a{
+    color: #212529
+
+}
+
+.menu li:hover {
+    border-radius: 5px;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+.dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+.dropdown li:hover {
+    background-color: #4c9e9e;
+}
+
+.services:hover .dropdown {
+    display: block;
+}
+
+.menu ul.li:hover {
+    color: white;
+}
+
+.masthead {
+    padding-top: 20rem;
+    padding-bottom: 13.7rem;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://cdn.discordapp.com/attachments/849966051969728512/966444534814896198/unknown.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.content_m1 h1 {
+    padding-left: 42.1rem;
+    padding-right: 32rem;
+    font-size: 45px;
+    color: white
+}
+.Hr-5 {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+}
+
+.tx-5 {
+    padding-left: 42.1rem;
+    padding-right: 35rem;
+    font-size: 20px;
+    margin-bottom: 2.1rem;
+    color: #D3D0CD
+}
+.btn-x1 {
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    background-color: #f4623a;
+    margin-left: 54.7rem;
+    color: #212529
+}
+.btn-x1 a:hover{
+    color: white;   
+}
+.bg-primary{
+
+    padding-bottom: 15rem;
+    background-color: #f4623a;
+}
+.text-center{
+    font-size: 35px;
+    color: #fff;
+    padding-left: 44.1rem;
+    padding-top:7.5rem
+}
+.divider{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+.btn{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    color: #000;
+    background-color: #f8f9fa;
+    margin-left: 55.2rem;
+}
+.text-center{
+    color: black;
+    margin-left:6rem
+}
+.text-center2{
+    color: black;
+    margin-top: 6rem;
+    margin-left:53.5rem
+}
+.icons-Third i{
+    color: #f4623a;
+    padding-left: 25rem;
+    padding-right: 12;
+    font-size:4rem
+}
+.pl-24{
+    padding-left: 24rem;
+}
+.pl-24-3{
+    padding-left: 24rem;
+    font-size:35px
+}
+.icons-Thirds i{
+    margin-top: -60rem;
+    color: #f4623a;
+    padding-left: 41rem;
+    padding-right: 12;
+    font-size:4rem
+}
+.table {
+    border-collapse: separate; 
+    border-spacing: 0 0rem;
+   }
+   .page-section {
+    padding: 7rem 0;
+}
+.bg-dark {
+    background-color: #212529;
+}
+.mb-4{
+    padding-bottom: 4rem;
+    color:white;
+    padding-left:49rem
+}
